@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Ptl">
+      <UniqueIdentifier>{af12df3d-8bc9-4205-b3fa-958657d7ae1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataProcess">
+      <UniqueIdentifier>{91b1c6f9-562e-4bf1-b8eb-e3cd79ca9e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCP">
+      <UniqueIdentifier>{86839981-0d12-47d7-9997-d3236ff36a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lock">
+      <UniqueIdentifier>{41ba90d5-1877-46ab-b6cd-aa879159d353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Channel">
+      <UniqueIdentifier>{679cc6f8-8ff8-4925-ae15-f0f62d81ecd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\SocksProxy.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SocksProxy.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SocksProxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocksProxyDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TipsBoxDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProcess\DataPack.h">
+      <Filter>DataProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProcess\DataPackDef.h">
+      <Filter>DataProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="DataProcess\DataParse.h">
+      <Filter>DataProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\ContextBuf.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\ContextBufDef.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\SocketBuf.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\SocketBufDef.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\TCP.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\TCPDef.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock\AutoLock.h">
+      <Filter>Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock\AutoLockDef.h">
+      <Filter>Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigCenterDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgCenter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgCenterDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIconDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMonitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMonitorDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\BridgeCtrl.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP\BridgeCtrlDef.h">
+      <Filter>TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\DstConn.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\DstConnDef.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\Channel.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\ChannelDef.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryEditorDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VerCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\UserConn.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="Channel\UserConnDef.h">
+      <Filter>Channel</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptl\UserPtl.h">
+      <Filter>Ptl</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptl\UserPtlDef.h">
+      <Filter>Ptl</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SocksProxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocksProxyDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TipsBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProcess\DataPack.cpp">
+      <Filter>DataProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="DataProcess\DataParse.cpp">
+      <Filter>DataProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP\ContextBuf.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP\SocketBuf.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP\TCP.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock\AutoLock.cpp">
+      <Filter>Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgCenter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMonitor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP\BridgeCtrl.cpp">
+      <Filter>TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel\DstConn.cpp">
+      <Filter>Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel\Channel.cpp">
+      <Filter>Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Channel\UserConn.cpp">
+      <Filter>Channel</Filter>
+    </ClCompile>
+    <ClCompile Include="Ptl\UserPtl.cpp">
+      <Filter>Ptl</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCnt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SocksProxy.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
